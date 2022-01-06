@@ -46,7 +46,7 @@ if (isset($_POST["marque"]) && !empty($_POST["marque"])
 
         if ($resultat){
             $message = "<div class=\"alert alert-success\" role=\"alert\">
-            Bravo, votre $marque a bien été ajouté à la base de donnée !
+            Bravo, la $marque a bien été ajouté à la base de donnée !
           </div>";
         }else{
             $message = "<div class=\"alert alert-danger\" role=\"alert\">
